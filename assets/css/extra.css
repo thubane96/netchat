@@ -1,0 +1,61 @@
+.top_bar {
+	width: 100%;
+	min-width: 1050px;
+	height: 60px;
+	background-color: #DB4437;
+	border-bottom: 0.25em solid #ffffff;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo a{
+	font-family: 'Goldman', cursive;
+	margin-left: 10px;
+	font-size: 30;
+	position: relative;
+	top: 9px;
+	color: #ffffff;
+}
+
+.profile_info {
+	display: list-item;
+	background-color: #DB4437;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+.profile_left {
+	top: -10px;
+	width: 17%;
+	max-width: 240px;
+	min-width: 130px;
+	height: 100%;
+	float: left;
+	position: relative;
+	background-color: #DB4437;
+	border-right: 10px solid #83D6FE;
+	color: #CBEAF8;
+	margin-right: 20px;
+}
+
+.deep_blue {
+	background-color: #F4B400;
+}
+
+#post_button {
+	background-color: #1877f2;
+	font-family: 'Goldman', cursive;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+#message_submit {
+	background-color: #1877f2;
+	font-family: 'Goldman', cursive;
+	color: #ffffff;
+	font-size: 15px;
+
+}
+
